@@ -1,20 +1,92 @@
 <!DOCTYPE html>
-    <html>
+<html>
 
-    <head>
-        <meta name="Author" content="Ignasi">
-        <meta name="description" content="Galeria d'Art">
-        <meta charset="UTF-8">
-        <meta lang="cat">
-        <title>Galeria d'Art</title>
-    </head>
+<head>
+    <meta name="Author" content="Ignasi">
+    <meta name="description" content="Galeria d'Art">
+    <meta charset="UTF-8">
+    <meta lang="cat">
+    <title>Galeria d'Art</title>
+</head>
 
-        <body>
-            <h1>Contacte</h1>
+<body>
+    <h1>Pàgina de contacte</h1>
+
+    <h2>Dades bàsiques</h2>
+
+    <form>
+        Nom:<br>
+        <input type="text" id="nom" name="Nom" value="Nom">
+        <label for="nom">Nom</label><br><br>
+        Primer cognom:<br>
+        <input type="text" id="cognom1" name="Primer cognom"></input><br><br>
+        Segon cognom: <br>
+        <input type="text" id="cognom2" name="Segon cognom"></input><br></br>
+        <br>
+        Document d'identitat:<br>
+        <input type="text" maxlength="10" id="doc_iden"><br><br>
+        Tipus de document:<br>
+        <select name="doc_iden">
+            <option value="1">NIE</option>
+            <option value="2">NIF</option>
+        </select>
+        <br>
+        <br>
+        Ets
+        <input type="radio" id="home" name="sexe">Home</input>
+        <input type="radio" id="dona" name="sexe">Dona</input><br><br>
+        Data de naixement:<br>
+        <input type="date" id="data_nai"><br><br>
+
+        <h2>Dades de contacte</h2>
+        Adreça de correu electrònic:<br>
+        <input type="text" id="email"><br><br>
+
+        Telèfon de contacte:<br>
+        <input type="text" id="phone"><br><br>
+
+        Vius a Barcelona? <input type="radio" id="sí" name="bcn">Sí</input>
+        <input type="radio" id="no" name="bcn">No</input><br><br>
+
+        Tipus de via:<br>
+        <select name="via">
+            <option value="1">Carrer</option>
+            <option value="2">Avinguda</option>
+            <option value="3">Plaça</option>
+        </select><br><br>
+
+        Adreça:<br>
+        <input type="text" id="adreça"><br><br>
+        Número:<br>
+        <input type="text" size="4" id="num"><br><br>
+        Pis:<br>
+        <input type="text" size="2" id="pis"><br><br>
+        Porta:<br>
+        <input type="text" id="porta" size="3"><br><br>
+        Escala:<br>
+        <input type="text" id="escala"><br><br>
+        Codi Postal:<br>
+        <input type="text" id="postal" size="5"><br><br>
+        Població:<br>
+        <input type="text" id="població" *Required><br><br>
 
 
-        </body>
+        <h2>Lista de tecnologías</h2><br>
+        <h3>Tecnologies que t'agradaria conèixer</h3>
+        <input type="checkbox" name="tecno" id="HTML">HTML</input>
+        <input type="checkbox" name="tecno2" id="CSS">CSS</input>
+        <input type="checkbox" name="tecno3" id="JS">Javascript</input><br><br>
+        <input type="checkbox" name="tecno4" id="php">PHP</input><br><br>
+        <br>
 
-    </html>
+        <input type="submit" id="enviar">
+
+    </form>
+
+
+
+
+</body>
+
 
 </html>
