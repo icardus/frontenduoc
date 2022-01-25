@@ -1,0 +1,7 @@
+body, nav, footer, aside, section, article {
+  background-color: antiquewhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
