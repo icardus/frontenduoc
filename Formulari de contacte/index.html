@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <style>
+      
+        .cos {
+            background-color: tomato;
+            position: relative;
+            padding-left: 500px;
+            padding-top: 170px;
+            padding-bottom: 500px;
+            padding-right: 500px;
+        }
+
+        .hr {
+            border: 1px solid black
+        }
+
+        #nom,
+        #cognoms,
+        #email,
+        #textarea {
+            background-color: rgb(236, 229, 236);
+            border-radius: 5px;
+            padding-left: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 5px;
+            position: relative;
+        }
+
+        textarea {
+            width: 100%;
+            height: 150px;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            background-color: rgb(236, 229, 236);
+            font-size: 16px;
+            size: 50px;
+            border-radius: 1px solid white;
+        }
+    </style>
+
+</head>
+
+<div class="container">
+
+    <body class="cos">
+
+        <form id="formulari1">
+
+            <h1 id="titol">Formulari de contacte</h1>
+
+            <hr class="hr">
+
+            <h3>Nom:</h3>
+            <input type="text" id="nom" size="30"></input>
+
+            <h3>Cognoms:</h3>
+            <input type="text" id="cognoms" size="30"></input>
+
+            <h3>Correu electrònic:</h3>
+            <input type="text" id="email" size="30"></input>
+
+            <h3>Missatge:</h3>
+
+            <form class="formu">
+                <textarea id="textarea" size="30"></textarea><br><br>
+
+            
+            <input type="submit" id="submit">
+
+        </form>
+
+
+    </body>
+
+
+</div>
+
+</div>
+
+</html>
