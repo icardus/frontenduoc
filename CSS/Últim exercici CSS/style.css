@@ -1,0 +1,23 @@
+#verd {
+    border: 9px dotted black;
+    background-color: green;
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    bottom: 90px;
+    left: 0;
+    right: 0; 
+    margin: auto;
+}
+
+#encanta {
+    text-decoration: uppercase;
+    color: rgb(66, 35, 66);
+    display: center;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 50px;
+    padding-bottom: 70px;
+}
+

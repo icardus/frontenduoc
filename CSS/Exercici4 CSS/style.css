@@ -1,0 +1,30 @@
+#verd {
+    color: green;
+    text-decoration: underline;
+}
+
+#vermell {
+    color: red;
+    font-weight: bold;
+}
+
+#negre {
+    color: black
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#blau {
+    color: blue;
+    font-weight: bold;
+}
+
+#vermell2 {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#entiendo {
+    text-decoration-line: underline overline ;
+}

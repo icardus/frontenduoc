@@ -1,0 +1,6 @@
+.contenidor {
+    width: 1000px;
+    height: 50px;
+    border: 20px solid red;
+    background-color: white;
+}

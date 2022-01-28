@@ -1,0 +1,55 @@
+#contenidor0 {
+    background-color: rosybrown;
+}
+
+p {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    display: center;
+}
+
+#contenidor1 {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 190px;
+    background-image: url(images/1.jpg);
+}
+
+#contenidor2 {
+    background-image: url(images/2.jpg);
+    height: 190px;
+}
+
+#contenidor3 {
+    background-image: url("images/3.jpg");
+    height: 190px;
+}
+
+#contenidor4 {
+    background-image: url("images/4.jpg");
+    height: 190px;
+}
+
+#contenidor2,
+#contenidor3,
+#contenidor4 {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#poema1,
+#poema2,
+#poema3,
+#poema4 {
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 70px;
+    padding-right: 450px;
+    padding-left: 450px;
+}

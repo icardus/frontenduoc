@@ -1,0 +1,15 @@
+#u,
+#dos,
+#tres,
+#quatre,
+#cinc,
+#sis,
+#set,
+#vuit,
+#nou {
+    display: grid;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+

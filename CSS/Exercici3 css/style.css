@@ -1,0 +1,39 @@
+
+#capa1 {
+background-color: white;
+height: 90px;
+width: 200px;
+border-radius: 15px;
+border: 1px solid black;
+margin-right: 90px;
+}
+
+#capa2 {
+    background-color: #8B04DE;
+    height: 90px;
+    width: 200px;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-right: 90px;
+}
+
+#capa3 {
+    background-color: yellow;
+    height: 90px;
+    width: 200px;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-right: 90px;
+}
+
+#capa1,
+#capa2,
+#capa3 {
+    display: inline-block;
+}
+
+div {
+    text-align: center;
+    padding-top: 75px;
+    color: whitesmoke
+}

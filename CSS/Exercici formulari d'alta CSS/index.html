@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari amb CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Formulario de alta</h1>
+
+    <table id="taula">
+
+            <tr>
+                <th>
+                    <h3>Nombre y apellidos</h3>
+                </th>
+                <th>
+                    <h3>Dirección</h3>
+                </th>
+            </tr>
+
+            <tr>
+                <td><input type="text" size="25"><br>Nom</td><br>
+                <td><input type="text" size="47"><br>Calle, número, piso, puerta</td><br>
+            </tr>
+
+            <tr>
+                <td><input type="text" size="35"><br>
+                    Primer cognom<br></td>
+
+                <td><input type="text" size="15"><br>
+                    Código postal<br></td>
+
+                <td> <input type="text" size="15"><br>
+                    Municipio<br></td>
+            </tr>
+
+            <tr>
+
+                <td><input type="text" size="35"><br>
+                    Segon cognom</td>
+                <td><select name="provincia" id="provincia"><br>
+                        <option value="barcelona">Barcelona</option>
+                        <option value="girona">Girona</option>
+                        <option value="tarragona">Tarragona</option>
+                        <option value="lleida">Lleida</option>
+                    </select><br>
+                    <label for="provincia">Provincia:</label><br>
+                <td><select name="país" id="país"><br>
+                        <option value="catalunya">Catalunya</option>
+                        <option value="españa">España</option>
+                        <option value="francia">Francia</option>
+                        <option value="arabia">Arabia Saudí</option>
+                    </select><br>
+                    <label for="país">País:</label><br>
+                </td>
+            </tr>
+
+            <br>
+
+            <tr>
+                <td>
+                    <h3>Email</h3>
+                    <input type="text" size="35"><br>
+                </td>
+
+                <td>
+                    <h3>Teléfono</h3>
+                    <input type="text" size="10"><br>
+                    Fijo<br>
+                </td>
+                <td><input type="text" id="movil" size="10"><br>
+                    Móvil<br></td>
+            </tr>
+
+            <br>
+            <tr>
+                <td colspan="3"><hr>></td>
+              </tr>
+              
+            <tr>
+                <td colspan="3"><input type="submit" id="enviar"></td>
+            </tr>
+            
+
+        </form>
+
+    </table>
+
+
+</body>
+
+</html>

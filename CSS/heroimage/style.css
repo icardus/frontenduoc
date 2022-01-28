@@ -1,0 +1,21 @@
+#portada {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    display: grid;
+    place-content: center;
+}
+
+#portada::before { 
+    content:"";
+    background-image: url("imagen/sea.jpg");
+    position: absolute;
+    height: 90vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -5;
+    opacity: 0.5;
+}
