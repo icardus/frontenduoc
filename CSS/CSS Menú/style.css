@@ -1,0 +1,21 @@
+li {
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0;
+}
+
+li:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+  }
+
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+        width: 100%; }
+}

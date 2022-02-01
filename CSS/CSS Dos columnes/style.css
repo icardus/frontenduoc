@@ -1,0 +1,16 @@
+#primera,
+#segunda {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    width: 30%;
+    height: 15%;
+}
+
+#principal {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    width: 70%;
+    height: 15%;
+}

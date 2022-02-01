@@ -1,0 +1,27 @@
+.item {
+    border: 4px solid rgb(53, 71, 175);
+    padding: 2rem;
+    background-color: #48A8F5;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+body {
+    background-color: grey;
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-right: 35px;
+
+}
+
+.container {
+    background-color: #FCAC17;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+
+}
