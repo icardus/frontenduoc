@@ -1,0 +1,21 @@
+li {
+    display: inline-block;
+    width: 180px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin: auto;
+}
+
+li:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+  }
+
+  header {
+      display: center;
+      margin: auto;
+  }
