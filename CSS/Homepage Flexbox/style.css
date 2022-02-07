@@ -1,18 +1,21 @@
-body, html {
-    
+body {
+width: 100%;
+height: 100%;
+
 }
 
 header {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     flex-direction: column;
-    background-color: burlywood;
+    background-color:rgb(219, 167, 103);
 }
+
 
 #phone {
     display: flex;
     justify-content: flex-start;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     padding-left: 50px;
     padding-top: 10px;
@@ -25,14 +28,14 @@ header {
 }
 
 #shop_icon {
-    padding-right: 30px;
+    padding-right: 70px;
     padding-top: 10px;
     font-size: 20px;
     font-weight: bold;
 }
 
 #profile {
-    padding-left: 860px;
+    padding-left: 1050px;
     padding-top: 10px;
     font-size: 20px;
     font-weight: bold;
@@ -44,46 +47,52 @@ header {
     height: 140px;
 }
 
-#nav {
-    display: flex;
-    justify-content: center;
-    padding-top: ;
-    
-}
 
-li {
+.li1 {
     display: inline-flex;
-    justify-content: center;
-    width: 150px;
-    height: 30px;
+    justify-content: space-between;
+    text-align: center;
     border-radius: 5px;
     background-color: rgb(46, 45, 43);
-    color: white;
-    padding-top: 10px;
-    margin: 30px;
+    color: rgb(230, 223, 193);
+    padding-top: 18px;
+    padding-left: 25px;
+    padding-bottom: 18px;
+    padding-right: 25px;
+    margin: 70px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
 }
 
-li:hover {
-    background-color: white;
-    border: 1px solid rgb(46, 45, 42);
+.li1:hover {
+    background-color: rgb(245, 220, 168);
+    border: 3px solid rgb(46, 45, 42);
     color: black;
   }
 
  /*Banner Homepage*/
 
-  #section1 {
-      background-image: url(Images/maple-g986cfa7fe_1920.jpg);
-      height: 40%;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: relative;
+ div.banner{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 1800px;
+    background-size: cover;
+    align-items: center;
+    background-image: url("./Images/old-books-gfafc4ba87_1920.jpg")
 
+ }​
+
+    #nav {
+        display: flex;
+        justify-content: space-between;
+        
     }
-
+    
     #principal {
         display: flex;
-        flex-direction: row;
+        justify-content: space-around;    
     }
 
     /*Arxiu de productes*/
@@ -92,7 +101,6 @@ li:hover {
         display: flex;
         flex-grow: 3;
         flex-wrap: wrap;
-        border: 5px solid black;
     }
 
     #llibre1,
@@ -107,7 +115,6 @@ li:hover {
         padding-bottom: 10px;
         padding-left: 10px;
         padding-right: 10px;
-       border: 1px solid black;
 
     }
 
@@ -119,18 +126,66 @@ li:hover {
       width: 220px;
       height: 900px;
       background-image: url(Images/vertical.jpg);
-      border: 5px solid black;
 
   }
 
 
 
 #footer {
-      width: 1400px;
-      height: 100px;
-      background-color: tomato;
-      border: 5px solid black;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    flex-grow: 4;
+    width: 100%;
+      height: 300px;
+      background-color: #ff6347;
+      padding-top: 25px;
+      font-size: 20px;
+
+    }
 }
+
+#location {
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        width: fit-content;
+        margin-right: 30px;
+        list-style-type: none;
+        padding-left: 33px;
+    }
+
+#serveis {
+    margin-right: 30px;
+    list-style-type: none;
+    padding-left: 33px;
+}
+
+#categories {
+    padding-left: 33px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+
+}
+
+.info2 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    flex-basis: 1;
+    list-style-type: none;
+
+}
+
+.info3 {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
 
 #subfooter {
       display: flex;
