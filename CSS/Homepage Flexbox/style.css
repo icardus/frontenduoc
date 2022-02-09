@@ -164,10 +164,6 @@ header {
     padding-left: 33px;
 }
 
-#line {
-    border: 1px solid black;
-    width: 1600px;
-}
 .info {
     display: flex;
     flex-direction: column;
