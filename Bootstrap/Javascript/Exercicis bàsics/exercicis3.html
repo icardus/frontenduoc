@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exercicis JS</h1>
+    <h2>Objecte Strings</h2>
+    <script>
+        /*1. Donat el següent string:
+const producto = ' Monitor 20 Pulgadas ';
+Elimina tots els espais en blanc de l’inici i del final*/
+
+let producto="    Monitor 20 pulgadas    ";
+console.log(producto)
+console.log(producto.trimStart()) //Per netejar la cadena i no hi ha espai en blanc
+
+/*Practicarem amb Split
+let actividad = 'Estoy aprendiendo Javascript Moderno';
+Separa variable actividad, tenint en compte espai en blanc.*/
+
+/*const actividad = 'Estoy aprendiendo Javascript Moderno';
+console.log(actividad.split(" "))*/
+
+/*const actividad = 'Estoy aprendiendo Javascript Moderno';
+console.log(actividad.toUpperCase());
+
+let frase=prompt("Introdueix una oració:");
+document.write(frase);
+
+let palabra=prompt("Introdueix una paraula:");
+document.write(palabra)
+
+var dondeEstaPalabra= frase.indexOf(palabra);
+document.write("donde esta" + dondeEstaPalabra);
+
+if(dondeEstaPalabra ===-1){
+    document.write("No encontrado");
+    } else {
+        document.write("Encontrado")
+    }
+} */
+
+/*2. Practicarem amb els mètodes: .replace , .slice, i typeof
+Donada la següent declaració: const producto = 'Monitor 20 Pulgadas';
+
+a. Reemplaça Pulgadas per ‘. Reemplaça 20 per 40.
+b. Extreu en una nova variable la següent part de la frase: 40 Pulgadas.
+c. Extreu en una nova variable la següent part de la farase: nitor 20.
+d. Declara una variable i assignali el teu Nom. Mostra la primer lletra d’aquesta
+variable.*/
+
+/*Exercici 2A*/
+var producteNou = 'Monitor 20 Pulgadas';
+console.log(producteNou);
+
+var producteNou2=(producteNou.replace("20","40"));
+console.log(producteNou2);
+
+/*Exercici 2B*/
+
+var producteExtreu=producteNou2.substr("40 pulgadas");
+console.log(producteExtreu);
+
+/*Exercici 2C*/
+/*Exercici 2D*/
+
+
+
+
+
+
+    </script>
+</body>
+</html>
