@@ -54,7 +54,7 @@ d. Declara una variable i assignali el teu Nom. Mostra la primer lletra d’aque
 variable.*/
 
 /*Exercici 2A*/
-var producteNou = 'Monitor 20 Pulgadas';
+/*var producteNou = 'Monitor 20 Pulgadas';
 console.log(producteNou);
 
 var producteNou2=(producteNou.replace("20","40"));
@@ -62,11 +62,98 @@ console.log(producteNou2);
 
 /*Exercici 2B*/
 
-var producteExtreu=producteNou2.substr("40 pulgadas");
-console.log(producteExtreu);
+var frase="Monitor de 40 pulgadas2";
+var newString0=frase.substr(9,19);
+console.log(newString0);
 
 /*Exercici 2C*/
+
+let product="Monitor de 20 pulgadas";
+let newString=product.substr(2, 11);
+console.log(newString);
+
 /*Exercici 2D*/
+
+let nom='Ignasi';
+let primeraLletra=nom.charAt("0");
+console.log(primeraLletra);
+
+
+var x=5;
+var y=0;
+
+var total=x<10 && y>1;
+console.log("total" + total);
+
+/*1. Declara una variables anomenada esCorrecte, assigna-li true o false. Utilitza un
+condicional per veure el seu valor.*/
+
+var esCorrecte=5;
+
+if (esCorrecte>2) {
+    console.log("es true");
+} else {
+    console.log("es false");
+}
+
+/*2. Declara i assigna dos valors booleans. Programa els següent escenaris:
+a. Escenari 1: Si tots dos valors són certs, el resultat hauria de ser cert. En
+la resta de casos ha de ser Fals.*/
+
+
+let boolean1= 4
+let boolean2= 7
+
+if (boolean1 && boolean2>2) {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+/*b. Escenari 2: Si un dels dos valors és certs, el resultat hauria de ser cert.
+En la resta de casos ha de ser Fals.*/
+
+let boolean3=8;
+let boolean4=1;
+
+if (boolean3 || boolean4 >2) {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+/*3. Analitza les següents expressions lògiques. Mostra per pantalla el seu valor i
+raona el seu resultat.
+a) 2 < 12
+b) 2 < "12"
+c) "2" < "12"
+d) !("2" < "12")
+e) ((2 < "12") && (2 == "2"))
+f) (("2" < "12") || (2 < 12))
+g) (("2" < "12") && (2 < 12))*/
+
+var a= 2<12;
+console.log(a);
+
+var b=2<"12";
+console.log(b);
+
+var c="2" < "12";
+console.log(c);
+
+/*Imagina’t que vols fer el pagament del carrito de la compra.
+Donades 2 variables totalCarrito, cashDisponible, comprova si tens prou cash
+per pagar el total del carret.*/
+
+var totalCarrito=10
+var cashDisponible=8
+
+if (cashDisponible>totalCarrito) {
+    console.log(true);
+}
+
+
+
 
 
 
