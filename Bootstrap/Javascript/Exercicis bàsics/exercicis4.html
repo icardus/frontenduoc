@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <script>
+    /*Imagina’t que vols fer el pagament del carrito de la compra.
+Donades 2 variables totalCarrito, cashDisponible, comprova si tens prou cash
+per pagar el total del carret.
+var totalCarrito = 10;
+var cashDisponible = 2;
+if (totalCarrito>=cashDisponible) {
+    alert("Confirmem que pots pagar la compra");
+} else {
+    alert("No ha estat possible realitzar la compra");
+}*/
+
+/*Imagina’t que en la teva botiga els usuaris poden tenir 3 roles:
+• ADMIN: El Usuario puede editar, eliminar y ver toda la información
+• EDITOR: El usuario solo puede editar sus registros
+• AUTOR: El usuario solo puede registrar usuarios
+• ANOMYMOUS: El Usuario es visitante, solo puede ver la información
+Controla les accions que poden fer cadascún d’ells amb un if
+
+var rol=Admin;
+
+if (rol==Admin) {
+    console.log("Usuari actual és Administrador");
+} else 
+if (rol==Editor) {
+    console.log("Usuari actual és Editor");
+ } else
+if (rol==Autor) {
+    console.log("Usuari actual és Autor");
+} else
+    console.log("Usuari actual és Anònim");*/
+
+//AMB SWITCH
+
+var rol="Admin";
+var rol="Editor";
+var rol="Autor";
+var rol="Anonymous";
+
+switch(rol) {
+
+case "Admin":
+    alert("Usuari Administrador");
+break;
+
+case "Editor":
+    alert ("Usuari Editor");
+break;
+
+case "Autor":
+    alert ("Usuari Autor");
+break;
+
+default: alert("Usuari anonim"); 
+}
+
+/*Quina és la millor estructura de control per diferenciar les funcionalitats de les
+formes de pagament d’una compra, tenint les següents opcions: efectiu, codi
+promocional, tarjeta. Escriu la estructura de control més adecuada.*/
+
+/*var formaPagament="efectiu";
+
+switch (formaPagament) {
+    case "efectiu";
+    console.log(Forma de pagament en efectiu);
+    break;
+
+    case "codipromo";
+    console.log(Forma de pagament en codi promo);
+    break;
+    
+}*/
+
+/*Per un pagament s’han de donar TOTES les opcions:
+1. Que tingui cash
+2. Que la compra sigui més gran que 100€*/
+
+var cash=true;
+var totalCarrito=150;
+
+if ((cash) && (totalCarrito>100)){
+    alert("OK Compra");
+}else {
+    alert("No pots pagar");
+}
+
+/*Fes l’anterior exercici fent servir l’operador ternari*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+    <h1>Exercicis JS</h1>
+</body>
+</html>
