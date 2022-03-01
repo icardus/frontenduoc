@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+  
+//EXERCICI 1
+
+/*Exemple: Mentre la i < 10, escriure el valor de i
+
+var i = 0;
+while (i<10) {
+    console.log ("The number is" + i);
+    i++;
+}
+*/
+
+
+//EXERCICI 2
+
+/*Utilitzant el Bucle while, demana un número per pantalla i calcula el seu
+factorial.*/
+
+/*var num = prompt ("Escriu un número"); 
+var factorial = 1;
+
+while (num>1) {
+    factorial = factorial*num;
+    num--;
+}
+
+console.log("El factorial es" + factorial);*/
+
+// DO WHILE
+
+/* let i = 0;
+do {
+    document.write (i + "<br>");
+    i++;
+}
+while (i<10); */
+
+//EXERCICI 3
+
+/* A) Utilitza la declaració do while de JavaScript per programar un simple joc
+d'endevinar un número del 1 al 10. Segueix el següent passos:
+a. El teu programa calcularà un número secret ( pots fer servir l’objecte Math )
+i no l’ha de mostrar per pantalla, ja que l’hauràs d’endevinar. */
+
+
+let numeroSecret = false;
+let numRandom = Math.random();
+let numeroCercat;
+
+alert(numRandom);
+do {
+   numeroCercat = prompt ("Introdueix un numero");
+} while (numeroCercat != numeroSecret);
+
+document.write ("numeroCercat");
+
+
+
+
+    </script>
+</head>
+<body>
+    <h1>JS While</h1>
+    
+</body>
+</html>
