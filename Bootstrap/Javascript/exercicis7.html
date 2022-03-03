@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+
+/*8. Fes una funció que donat un número de DNI, calculi si la lletra és correcta. Tingues
+present que la lletra del DNI es calcula en dos passos:
+a. Calcular el mòdul del número del DNI respecte 23
+b. El resultat de l’operació anterior ha de correspondre a la posició del següent
+string:
+var lletres =”TRWAGMYFPDXBNJZSQVHLCKE”;*/
+
+/*let dniLletra = 
+var lletres =”TRWAGMYFPDXBNJZSQVHLCKE”;
+var dni;
+function (validarDni) {
+    dni
+    if (dni == dni%23)
+    return true; 
+} else {
+        return false;
+    }*/
+
+
+/*10. Simula un Captcha senzill de 5 caràcters ( amb lletres minúscules i números ) amb
+JAVASCRIPT. El captcha el pots generar fent ús random i de la següent variable:
+var captchaChars = "1234567890abcdefghijklmnopqrst";
+// Random captchaChars.length
+Pots implementar una funció que generi el captcha i un altre que el validi.*/
+// 2 funcions: una per generar el capcha i l'altre per validar
+
+function createCaptcha() {
+
+var captcha = ""; //aquesta var és nula ara per tant ""
+var captchaChars = "1234567890abcdefghijklmnopqrst";
+var randomIndex;
+
+for (var i=0)
+    randomIndex = Math.floor(Math.random() * captchaChars.lenght);
+    captcha = captcha + captchaChars.charAt(randomIndex);
+}
+return captcha;
+}
+
+</script>
+
+</head>
+<body>
+    <h1>JS Exercicis</h1>
+</body>
+</html>
