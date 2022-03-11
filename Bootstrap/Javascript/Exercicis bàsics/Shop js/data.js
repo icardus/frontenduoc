@@ -13,4 +13,23 @@ var products = [
     }
     ]
 
+    console.log(products);
+    
+
+    var subtotal = {
+        grocery: {
+        value: 0,
+        discount: 0
+        },
+        beauty: {
+        value: 0,
+        discount: 0
+        },
+        clothes: {
+        value: 0,
+        discount: 0
+        },
+        };
+
+        console.log(subtotal);
     
