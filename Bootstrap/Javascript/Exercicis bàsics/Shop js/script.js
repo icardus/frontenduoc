@@ -1,6 +1,6 @@
 //BUY
 
-function buy (id) [
+/*function buy (id) [
     productBuy=products.find {
         function (element) {
             if (element.id==id) {
@@ -8,8 +8,10 @@ function buy (id) [
             }
         }
     }
+]*/
+console.log(*****************************);
 
-]
+
 
 
 
